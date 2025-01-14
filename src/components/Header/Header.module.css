@@ -1,0 +1,44 @@
+.btn_mobile_phone {
+  width: 35px;
+  height: 20px;
+  background-color: #fff;
+  border: none;
+  background-image: url(..//../assets/icon/menu.svg);
+  cursor: pointer;
+}
+
+.logo {
+  width: 124px;
+  height: 44px;
+}
+
+.btn_call {
+  width: 60px;
+  height: 41px;
+  background-color: #6cac3d;
+  border-radius: 3px;
+  background-image: url(../../assets/icon/call.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.container_for_position_mobile_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 29px;
+}
+
+.hero {
+  margin-top: 15px;
+  height: 500px;
+  background-image: url(../../assets/img/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: -325px 0;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: bold;
+}

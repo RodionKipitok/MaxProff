@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/MaxProff/static/css/main.7acaea2f.css",
-    "main.js": "/MaxProff/static/js/main.07d3183d.js",
+    "main.js": "/MaxProff/static/js/main.c1d52d32.js",
     "index.html": "/MaxProff/index.html",
     "main.7acaea2f.css.map": "/MaxProff/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/MaxProff/static/js/main.07d3183d.js.map"
+    "main.c1d52d32.js.map": "/MaxProff/static/js/main.c1d52d32.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.c1d52d32.js"
   ]
 }

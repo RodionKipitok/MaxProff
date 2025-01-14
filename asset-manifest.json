@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/MaxProff/static/css/main.7acaea2f.css",
-    "main.js": "/MaxProff/static/js/main.c1d52d32.js",
+    "main.css": "/MaxProff/static/css/main.a7e2a338.css",
+    "main.js": "/MaxProff/static/js/main.0dea69e6.js",
+    "static/media/hero.jpg": "/MaxProff/static/media/hero.34e399d0f47b81778dc1.jpg",
+    "static/media/MaxProff.svg": "/MaxProff/static/media/MaxProff.f80f1c4733ee3535521e9f4fd5b83bfd.svg",
+    "static/media/call.svg": "/MaxProff/static/media/call.cd23500429c4f380dceca0d537cc0d9b.svg",
     "index.html": "/MaxProff/index.html",
-    "main.7acaea2f.css.map": "/MaxProff/static/css/main.7acaea2f.css.map",
-    "main.c1d52d32.js.map": "/MaxProff/static/js/main.c1d52d32.js.map"
+    "static/media/x.svg": "/MaxProff/static/media/x.b12e24778c943e520c8f.svg",
+    "static/media/menu.svg": "/MaxProff/static/media/menu.cdc48ece8ef14a049666.svg",
+    "main.a7e2a338.css.map": "/MaxProff/static/css/main.a7e2a338.css.map",
+    "main.0dea69e6.js.map": "/MaxProff/static/js/main.0dea69e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.c1d52d32.js"
+    "static/css/main.a7e2a338.css",
+    "static/js/main.0dea69e6.js"
   ]
 }

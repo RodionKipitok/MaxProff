@@ -1,13 +1,38 @@
-import { ReactComponent as Call } from '..//../assets/icon/call.svg';
 import s from './MobileMenu.module.css';
-import React from 'react';
 
-function MobileMenu(params) {
+function MobileMenu({ menuActive, setMenuActive }) {
+  // const linkscCategories = [
+  //   { name: 'Ремонт квартир', href: 'http://' },
+  //   { name: "Дизайн інтер'єру", href: 'http://' },
+  //   { name: 'Ремонт кімнат', href: 'http://' },
+  //   { name: 'Будинки та котеджі', href: 'http://' },
+  //   { name: 'Інші послуги', href: 'http://' },
+  //   { name: '', href: 'http://' },
+  //   { name: '', href: 'http://' },
+  // ];
+
+  // const linksInfo = [
+  //   { name: 'Ціни', href: 'http://' },
+  //   { name: 'Портфоліо', href: 'http://' },
+  //   { name: 'Акції', href: 'http://' },
+  //   { name: 'Переваги', href: 'http://' },
+  //   { name: 'Блог', href: 'http://' },
+  //   { name: 'Контакти', href: 'http://' },
+  // ];
+
   return (
     <>
-      <div className={s.container_mobile_menu}>
+      <div
+        className={`${s.container_mobile_menu} ${menuActive ? s.active : ''}`}
+      >
         <div className={s.blur}>
-          <button type="button" className={s.btn_close}>
+          <button
+            type="button"
+            className={s.btn_close}
+            onClick={() => {
+              setMenuActive(false);
+            }}
+          >
             <span></span>
           </button>
         </div>
@@ -19,11 +44,11 @@ function MobileMenu(params) {
             Калькулятор ремонту
           </a>
           <div className={s.repair_categories}>
-            <button type="button">Ремонт квартир</button>
-            <button type="button">Дизайн інтер'єру</button>
-            <button type="button">Ремонт кімнат</button>
-            <button type="button">Будинки та котеджі</button>
-            <button type="button">Інші послуги</button>
+            <a href="http://">Ремонт квартир</a>
+            <a href="http://">Дизайн інтер'єру</a>
+            <a href="http://">Ремонт кімнат</a>
+            <a href="http://">Будинки та котеджі</a>
+            <a href="http://">Інші послуги</a>
           </div>
           <div className={s.info}>
             <a href="http://">Ціни</a>
@@ -34,7 +59,6 @@ function MobileMenu(params) {
             <a href="http://">Контакти</a>
           </div>
           <div className={s.contact}>
-            <Call className={s.call} />
             <a href="tel:+"> +3809355656</a>
             <p>08:00 - 22:00, без вихідних</p>
           </div>

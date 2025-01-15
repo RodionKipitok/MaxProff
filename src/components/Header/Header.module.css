@@ -38,7 +38,28 @@
   background-position: -325px 0;
 }
 
-h1 {
+.heroTitle {
   font-size: 34px;
   font-weight: bold;
+  padding-top: 43px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.heroSubtitle {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+.heroPrice {
+  font-size: 52px;
+  font-weight: 700;
+  width: 130px;
+  background-color: var(--green);
+  color: var(--white);
+  border-radius: 3px;
+  text-align: center;
+  margin: 4px;
 }

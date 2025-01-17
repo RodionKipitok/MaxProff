@@ -1,0 +1,9 @@
+.form{
+    outline:  1px solid red;
+}
+
+.radio_container {
+  padding: 20px;
+  width: 375px;
+  height: 187px;
+}

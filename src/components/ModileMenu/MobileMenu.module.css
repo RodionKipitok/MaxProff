@@ -4,7 +4,7 @@
   height: 100vh;
   top: 74px;
   left: 100px;
-  transform: translateX(-100%);
+  transform: translateX(-200%);
   transition: transform 0.3s ease-in-out;
 }
 

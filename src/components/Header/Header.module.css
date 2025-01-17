@@ -32,10 +32,15 @@
 
 .hero {
   margin-top: 15px;
-  height: 500px;
-  background-image: url(../../assets/img/hero.jpg);
+  height: 687px;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(../../assets/img/big-hero.png);
+
   background-repeat: no-repeat;
-  background-position: -325px 0;
+  background-position: right;
 }
 
 .heroTitle {
@@ -62,4 +67,25 @@
   border-radius: 3px;
   text-align: center;
   margin: 4px;
+}
+
+.advantageWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 164px);
+  margin-top: 15px;
+}
+
+.advantageItem {
+  padding-left: 10px;
+}
+
+.advantageIcon {
+  width: 60px;
+  height: 60px;
+}
+
+.advantageText {
+  font-size: 18px;
+  font-weight: 700;
 }

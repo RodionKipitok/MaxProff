@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/MaxProff/static/css/main.3a93cb74.css",
-    "main.js": "/MaxProff/static/js/main.0484095f.js",
-    "static/media/hero.jpg": "/MaxProff/static/media/hero.34e399d0f47b81778dc1.jpg",
+    "main.css": "/MaxProff/static/css/main.faacbd0a.css",
+    "main.js": "/MaxProff/static/js/main.9f5ec1e3.js",
+    "static/media/big-hero.png": "/MaxProff/static/media/big-hero.5679b618b2ea9d8c4a13.png",
     "static/media/MaxProff.svg": "/MaxProff/static/media/MaxProff.f80f1c4733ee3535521e9f4fd5b83bfd.svg",
     "static/media/call.svg": "/MaxProff/static/media/call.cd23500429c4f380dcec.svg",
     "index.html": "/MaxProff/index.html",
     "static/media/x.svg": "/MaxProff/static/media/x.b12e24778c943e520c8f.svg",
     "static/media/menu.svg": "/MaxProff/static/media/menu.cdc48ece8ef14a049666.svg",
-    "main.3a93cb74.css.map": "/MaxProff/static/css/main.3a93cb74.css.map",
-    "main.0484095f.js.map": "/MaxProff/static/js/main.0484095f.js.map"
+    "main.faacbd0a.css.map": "/MaxProff/static/css/main.faacbd0a.css.map",
+    "main.9f5ec1e3.js.map": "/MaxProff/static/js/main.9f5ec1e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a93cb74.css",
-    "static/js/main.0484095f.js"
+    "static/css/main.faacbd0a.css",
+    "static/js/main.9f5ec1e3.js"
   ]
 }

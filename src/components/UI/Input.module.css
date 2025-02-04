@@ -1,0 +1,40 @@
+.real_radio {
+  width: 0;
+  height: 0;
+  position: absolute;
+  opacity: 0;
+}
+
+.custom_radio {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border: 2px solid gray;
+  border-radius: 50%;
+  vertical-align: top;
+}
+
+.custom_radio::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-image: url(..//../assets/icon/Ellipse\ 3.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.2s ease-in;
+}
+
+.real_radio:checked + .custom_radio::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.real_radio:checked + .custom_radio {
+  border: 2px solid #2d4872;
+}

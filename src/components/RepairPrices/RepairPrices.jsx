@@ -1,8 +1,11 @@
 import React from 'react'
-
+import Slider from './Slider'
 function RepairPrices() {
   return (
-    <div>RepairPrices</div>
+    <section>
+      <h2></h2>
+      <Slider/>
+    </section>
   )
 }
 

@@ -1,27 +1,35 @@
-import React from 'react'
-
-function Input({style,type,name, value,id, min,max ,step}) {
-    // console.log(style);
-    // console.log(type);
-    // console.log(name);
-    // console.log(name);
-    // console.log(value);
-    // console.log(id);
+import React from 'react';
+import s from '../UI/Input.module.css';
+function Input({
+  className,
+  type,
+  name,
+  value,
+  id,
+  checked,
+  min,
+  max,
+  step,
+  onChange,
+}) {
   return (
     <label className="radio-label">
-    <input
-      className="radio"
-      type={type}
-      name={name}
-      value={value}
-      id={id}
-      min={min}
-      max={max}
-      step={step}
-    />
-    <span className="radio-title">{name}</span>
-  </label>
-  )
+      <input
+        className={s.real_radio}
+        type={type}
+        name={name}
+        value={value}
+        id={id}
+        checked={checked}
+        min={min}
+        max={max}
+        step={step}
+        onChange={onChange}
+      />
+      <span className={s.custom_radio}></span>
+      {type === 'radio' && <span>{value}</span>}
+    </label>
+  );
 }
 
-export default Input
+export default Input;
